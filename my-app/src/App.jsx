@@ -13,9 +13,9 @@ export const App = () => {
    
     return  (
         <>
-        {console.log("test")}
+       
                     <h1 style={{color:"red"}}>안녕하세요.</h1>
-         <ColoredMessage />
+         <ColoredMessage color="blue" message="잘지내시죠 zz?"/>
             <p style={contentPinkStyle}>잘 지냅니다.</p>
            <button onClick={onClickButton}>버튼</button>
         </>
