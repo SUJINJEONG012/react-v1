@@ -9,9 +9,10 @@ export const App = () => {
    
     return  (
         <>
+       
         <h1 style={{color:"red"}}>안녕하세요.</h1>
-        <ColoredMessage color="blue" message="잘지내시죠 zz?"/>
-        <ColoredMessage color="pink" message="잘지냅니다!!!"/>
+        <ColoredMessage color="blue">잘 지내시죠 ?</ColoredMessage>
+        <ColoredMessage color="pink">잘지냅니다 ! !</ColoredMessage>
            <button onClick={onClickButton}>버튼</button>
         </>
     );
