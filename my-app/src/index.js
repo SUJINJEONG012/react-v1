@@ -1,13 +1,6 @@
-import React, { Fragment, ReactDOM } from "react";
-
-const App= () => {
-
- return (
-    <>
-    <h1>안녕하세요</h1>
-    <p> 잘지내시죠?</p>
-    </>
-    );
- };
+import ReactDOM  from "react-dom";
+import {App} from "./App";
 
 ReactDOM.render(<App/>, document.getElementById("root"));
+
+
