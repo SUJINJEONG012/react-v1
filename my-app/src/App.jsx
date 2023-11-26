@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { ColoredMessage } from "./components/ColoredMessage";
 import { CssModules } from "./components/CssModules";
+import { StyledComponents } from "./components/StyledComponents";
+import { StyledJsx } from "./components/StyledJsx";
 
 export const App= () => {
   //state정의
@@ -20,6 +22,8 @@ export const App= () => {
        <button onClick={onClickButton}>버튼</button>
        <p>{num}</p>
        <CssModules/>
+       <StyledJsx/>
+       <StyledComponents/>
     </>
        );
     };
