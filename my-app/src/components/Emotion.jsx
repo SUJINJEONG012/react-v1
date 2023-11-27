@@ -1,5 +1,4 @@
-import {jsx, css} from "@emotion/react";
-import styled from "@emotion/styled";
+import {css} from "@emotion/react";
 
 export const Emotion = () => {
     // scss와 동일하게 작성 가능
@@ -21,7 +20,7 @@ export const Emotion = () => {
 
    return(
     <div css={containerStyle}>
-        <p css="{titleStyle}">Emotion 입니다.</p>
+        <p css={titleStyle}>Emotion 입니다.</p>
         <button>버튼</button>
     </div>
    );
