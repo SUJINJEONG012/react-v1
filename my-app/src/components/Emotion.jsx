@@ -24,4 +24,3 @@ export const Emotion = () => {
         <button>버튼</button>
     </div>
    );
-};
